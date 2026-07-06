@@ -1,0 +1,7 @@
+{"time":"2026-03-30T13:47:34.019217528-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpcxgy793h/port-3006809.txt","pid":3006809,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-03-30T13:47:34.019865518-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":3006809}
+{"time":"2026-03-30T13:47:34.019854666-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-3006809-3006827-3499554362/socket","Net":"unix"}}
+{"time":"2026-03-30T13:47:34.205145089-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2026-03-30T13:47:34.215805179-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"grylhk30","id":"1(@)"}
+{"time":"2026-03-30T13:47:36.490808933-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"grylhk30","id":"1(@)"}
+{"time":"2026-03-30T13:47:42.013658973-04:00","level":"INFO","msg":"connection: cancelling request","id":"1(@)","requestId":"xwijqtnoejy0"}

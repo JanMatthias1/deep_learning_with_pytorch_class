@@ -1,0 +1,72 @@
+============================================================
+DQN Training on CartPole-v1
+Episodes: 600, LR: 0.0001, Batch: 64
+Buffer: 10000, Gamma: 0.99
+Eps: 1.0 -> 0.01 (decay=500.0)
+Target update every 3 episodes
+Warmup steps: 1000
+============================================================
+[Ep   10] Reward:   12.0 | Avg100:   19.1 | Loss: 0.0000 | Eps: 0.686
+[Ep   20] Reward:   10.0 | Avg100:   16.1 | Eval:    9.2 | Loss: 0.0000 | Eps: 0.530 | Steps: 322
+[Ep   30] Reward:   12.0 | Avg100:   14.6 | Loss: 0.0000 | Eps: 0.422
+[Ep   40] Reward:   13.0 | Avg100:   14.2 | Eval:    9.7 | Loss: 0.0000 | Eps: 0.329 | Steps: 566
+[Ep   50] Reward:   12.0 | Avg100:   13.5 | Loss: 0.0000 | Eps: 0.267
+[Ep   60] Reward:   10.0 | Avg100:   13.1 | Eval:    9.5 | Loss: 0.0000 | Eps: 0.217 | Steps: 783
+[Ep   70] Reward:   12.0 | Avg100:   12.7 | Loss: 0.0000 | Eps: 0.178
+[Ep   80] Reward:   11.0 | Avg100:   12.4 | Eval:    9.2 | Loss: 0.0000 | Eps: 0.146 | Steps: 991
+[Ep   90] Reward:   11.0 | Avg100:   12.1 | Loss: 0.9753 | Eps: 0.122
+[Ep  100] Reward:   12.0 | Avg100:   11.9 | Eval:    9.0 | Loss: 1.8125 | Eps: 0.101 | Steps: 1195
+[Ep  110] Reward:    9.0 | Avg100:   11.1 | Loss: 2.6491 | Eps: 0.084
+[Ep  120] Reward:    8.0 | Avg100:   10.7 | Eval:    9.9 | Loss: 2.8680 | Eps: 0.072 | Steps: 1388
+[Ep  130] Reward:   11.0 | Avg100:   10.5 | Loss: 3.4064 | Eps: 0.061
+[Ep  140] Reward:   10.0 | Avg100:   10.2 | Eval:   10.4 | Loss: 3.7517 | Eps: 0.051 | Steps: 1591
+[Ep  150] Reward:   13.0 | Avg100:   10.2 | Loss: 3.3598 | Eps: 0.043
+[Ep  160] Reward:   11.0 | Avg100:   10.3 | Eval:   11.2 | Loss: 4.3402 | Eps: 0.036 | Steps: 1811
+[Ep  170] Reward:   14.0 | Avg100:   10.4 | Loss: 3.7868 | Eps: 0.031
+[Ep  180] Reward:    9.0 | Avg100:   10.6 | Eval:    9.7 | Loss: 5.0949 | Eps: 0.026 | Steps: 2051
+[Ep  190] Reward:   10.0 | Avg100:   10.6 | Loss: 10.5841 | Eps: 0.023
+[Ep  200] Reward:    9.0 | Avg100:   10.5 | Eval:    9.3 | Loss: 7.8443 | Eps: 0.021 | Steps: 2245
+[Ep  210] Reward:    9.0 | Avg100:   10.4 | Loss: 15.8842 | Eps: 0.019
+[Ep  220] Reward:    9.0 | Avg100:   10.5 | Eval:    9.1 | Loss: 10.8388 | Eps: 0.018 | Steps: 2441
+[Ep  230] Reward:    8.0 | Avg100:   10.5 | Loss: 8.3008 | Eps: 0.016
+[Ep  240] Reward:    8.0 | Avg100:   10.3 | Eval:    9.5 | Loss: 5.4369 | Eps: 0.015 | Steps: 2617
+[Ep  250] Reward:   61.0 | Avg100:   13.3 | Loss: 4.3657 | Eps: 0.012
+[Ep  260] Reward:   94.0 | Avg100:   19.0 | Eval:   56.0 | Loss: 5.4865 | Eps: 0.011 | Steps: 3715
+[Ep  270] Reward:   55.0 | Avg100:   23.9 | Loss: 6.8847 | Eps: 0.010
+[Ep  280] Reward:   54.0 | Avg100:   27.7 | Eval:   55.8 | Loss: 9.0955 | Eps: 0.010 | Steps: 4823
+[Ep  290] Reward:   31.0 | Avg100:   30.9 | Loss: 8.2676 | Eps: 0.010
+[Ep  300] Reward:   48.0 | Avg100:   35.1 | Eval:   59.9 | Loss: 10.7664 | Eps: 0.010 | Steps: 5754
+[Ep  310] Reward:   52.0 | Avg100:   40.1 | Loss: 8.8116 | Eps: 0.010
+[Ep  320] Reward:   50.0 | Avg100:   45.9 | Eval:   81.5 | Loss: 7.5587 | Eps: 0.010 | Steps: 7032
+[Ep  330] Reward:  117.0 | Avg100:   52.5 | Loss: 6.9024 | Eps: 0.010
+[Ep  340] Reward:  151.0 | Avg100:   66.6 | Eval:  206.8 | Loss: 4.2759 | Eps: 0.010 | Steps: 9281
+[Ep  350] Reward:  266.0 | Avg100:   84.2 | Loss: 3.7701 | Eps: 0.010
+[Ep  360] Reward:  208.0 | Avg100:  102.2 | Eval:  221.3 | Loss: 1.6689 | Eps: 0.010 | Steps: 13940
+[Ep  370] Reward:  208.0 | Avg100:  118.8 | Loss: 0.5831 | Eps: 0.010
+[Ep  380] Reward:  194.0 | Avg100:  134.3 | Eval:  207.8 | Loss: 0.2759 | Eps: 0.010 | Steps: 18249
+[Ep  390] Reward:  261.0 | Avg100:  155.9 | Loss: 0.3971 | Eps: 0.010
+[Ep  400] Reward:  153.0 | Avg100:  173.4 | Eval:  280.3 | Loss: 1.9757 | Eps: 0.010 | Steps: 23096
+[Ep  410] Reward:  127.0 | Avg100:  189.5 | Loss: 3.5924 | Eps: 0.010
+[Ep  420] Reward:  133.0 | Avg100:  202.7 | Eval:  178.6 | Loss: 5.7005 | Eps: 0.010 | Steps: 27301
+[Ep  430] Reward:  116.0 | Avg100:  210.1 | Loss: 10.3250 | Eps: 0.010
+[Ep  440] Reward:  152.0 | Avg100:  209.7 | Eval:  136.5 | Loss: 13.0331 | Eps: 0.010 | Steps: 30246
+[Ep  450] Reward:  119.0 | Avg100:  203.0 | Loss: 13.3587 | Eps: 0.010
+[Ep  460] Reward:  171.0 | Avg100:  193.8 | Eval:  162.0 | Loss: 12.7789 | Eps: 0.010 | Steps: 33320
+[Ep  470] Reward:  149.0 | Avg100:  185.9 | Loss: 13.3119 | Eps: 0.010
+[Ep  480] Reward:  135.0 | Avg100:  181.1 | Eval:  166.2 | Loss: 13.8552 | Eps: 0.010 | Steps: 36359
+[Ep  490] Reward:  236.0 | Avg100:  178.2 | Loss: 6.9696 | Eps: 0.010
+[Ep  500] Reward:  219.0 | Avg100:  176.9 | Eval:  198.6 | Loss: 4.1635 | Eps: 0.010 | Steps: 40789
+[Ep  510] Reward:  200.0 | Avg100:  176.1 | Loss: 6.5894 | Eps: 0.010
+[Ep  520] Reward:  213.0 | Avg100:  178.4 | Eval:  229.7 | Loss: 7.5960 | Eps: 0.010 | Steps: 45141
+[Ep  530] Reward:  231.0 | Avg100:  186.3 | Loss: 12.0937 | Eps: 0.010
+[Ep  540] Reward:  205.0 | Avg100:  193.9 | Eval:  234.6 | Loss: 16.1932 | Eps: 0.010 | Steps: 49637
+[Ep  550] Reward:  222.0 | Avg100:  201.3 | Loss: 16.5450 | Eps: 0.010
+[Ep  560] Reward:  259.0 | Avg100:  209.3 | Eval:  234.9 | Loss: 16.4127 | Eps: 0.010 | Steps: 54249
+[Ep  570] Reward:  230.0 | Avg100:  217.4 | Loss: 20.0201 | Eps: 0.010
+[Ep  580] Reward:  251.0 | Avg100:  225.3 | Eval:  249.3 | Loss: 15.9394 | Eps: 0.010 | Steps: 58890
+[Ep  590] Reward:  240.0 | Avg100:  227.1 | Loss: 17.3125 | Eps: 0.010
+[Ep  600] Reward:  227.0 | Avg100:  230.4 | Eval:  235.3 | Loss: 16.7179 | Eps: 0.010 | Steps: 63829
+============================================================
+Final evaluation (20 episodes): 235.4
+Best evaluation reward: 280.3
+============================================================

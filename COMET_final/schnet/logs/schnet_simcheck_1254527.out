@@ -1,0 +1,7 @@
+Loaded 14 embeddings, dim=128
+
+=== Similarity Warnings (sim > 0.99) ===
+None found.
+Similarity check done
+
+Saved to /home/jmatthi2/deep_learning/COMET/schnet/schnet_similarity_matrix.png

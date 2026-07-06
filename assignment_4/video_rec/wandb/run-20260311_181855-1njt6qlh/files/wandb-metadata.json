@@ -1,0 +1,97 @@
+{
+  "os":  "Linux-5.14.0-427.13.1.el9_4.x86_64-x86_64-with-glibc2.34",
+  "python":  "CPython 3.10.9",
+  "startedAt":  "2026-03-11T22:18:55.655815Z",
+  "args":  [
+    "--train_dir",
+    "/users/jmatthia/deep_learning/data/UCF50_splits/train",
+    "--val_dir",
+    "/users/jmatthia/deep_learning/data/UCF50_splits/val",
+    "--rnn_n_layers",
+    "1",
+    "--learning_rate",
+    "3e-5",
+    "--n_classes",
+    "50",
+    "--batch_size",
+    "8",
+    "--n_epochs",
+    "60",
+    "--dropout",
+    "0.5",
+    "--mode",
+    "train"
+  ],
+  "program":  "/users/jmatthia/deep_learning/code/assignment_4/video_rec/run.py",
+  "codePath":  "video_rec/run.py",
+  "codePathLocal":  "run.py",
+  "git":  {
+    "remote":  "git@github.com:JanMatthias1/assignment_4_deep_learning.git"
+  },
+  "email":  "jan.matthias@hotmail.com",
+  "root":  "/users/jmatthia/deep_learning/code/assignment_4/video_rec",
+  "host":  "compute-126.cm.cluster",
+  "executable":  "/users/jmatthia/deep_learning/code/assignment_4/ucf50_env/bin/python",
+  "cpu_count":  24,
+  "cpu_count_logical":  48,
+  "gpu":  "NVIDIA A100 80GB PCIe",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "32145145856",
+      "used":  "27933257728"
+    }
+  },
+  "memory":  {
+    "total":  "540334886912"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-761ab97d-f2c6-ae12-925f-910562e53266"
+    }
+  ],
+  "cudaVersion":  "12.5",
+  "slurm":  {
+    "cluster_name":  "jhpce3",
+    "conf":  "/etc/slurm/slurm.conf",
+    "cpus_on_node":  "4",
+    "cpus_per_task":  "4",
+    "gpus_on_node":  "1",
+    "gtids":  "0",
+    "job_account":  "jhpce",
+    "job_cpus_per_node":  "4",
+    "job_dependency":  "afterok:29712011",
+    "job_gid":  "100",
+    "job_gpus":  "3",
+    "job_id":  "29712243",
+    "job_name":  "detect",
+    "job_nodelist":  "compute-126",
+    "job_num_nodes":  "1",
+    "job_partition":  "gpu",
+    "job_qos":  "normal",
+    "job_uid":  "57545",
+    "job_user":  "jmatthia",
+    "jobid":  "29712243",
+    "localid":  "0",
+    "mem_per_node":  "76800",
+    "nnodes":  "1",
+    "node_aliases":  "(null)",
+    "nodeid":  "0",
+    "nodelist":  "compute-126",
+    "prio_process":  "0",
+    "procid":  "0",
+    "script_context":  "prolog_task",
+    "submit_dir":  "/users/jmatthia/deep_learning/code/assignment_4",
+    "submit_host":  "jhpce01.cm.cluster",
+    "task_pid":  "2304944",
+    "tasks_per_node":  "1",
+    "topology_addr":  "compute-126",
+    "topology_addr_pattern":  "node",
+    "working_cluster":  "jhpce3:usher05:6817:9728:109"
+  },
+  "writerId":  "oetm5tqlygh1jc8zya39thay08yw7zcp"
+}

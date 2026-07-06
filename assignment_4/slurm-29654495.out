@@ -1,0 +1,17 @@
+[setup] Python version: (3, 10)
+[setup] Creating virtual environment: ucf50_env
+[setup] Installing dependencies from requirements.txt ...
+[setup] Verifying installation ...
+  torch        2.10.0+cu128
+  torchvision  0.25.0+cu128
+  opencv       4.13.0
+  scikit-learn 1.7.2
+  numpy        2.2.6
+  Pillow       12.1.1
+  CUDA available: False
+
+[setup] Done. Activate the environment with:
+        source ucf50_env/bin/activate
+
+Then run training with:  bash train.sh
+Then run testing with:   bash test.sh

@@ -1,0 +1,9 @@
+# Core RL environment
+gymnasium==0.29.1
+
+# Logging and utilities
+wandb
+numpy
+
+# Code quality
+pylint

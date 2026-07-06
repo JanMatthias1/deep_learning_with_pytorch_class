@@ -1,0 +1,90 @@
+Epoch   1/50 | lr 8.00e-05 | train loss 4.2985 acc 0.0489 | val loss 3.9269 acc 0.0912 | 558.7s
+  -> New best val acc: 0.0912
+Epoch   2/50 | lr 1.20e-04 | train loss 4.0076 acc 0.0817 | val loss 3.6882 acc 0.1276 | 562.1s
+  -> New best val acc: 0.1276
+Epoch   3/50 | lr 1.60e-04 | train loss 3.7682 acc 0.1205 | val loss 3.3563 acc 0.1852 | 562.7s
+  -> New best val acc: 0.1852
+Epoch   4/50 | lr 2.00e-04 | train loss 3.5705 acc 0.1505 | val loss 3.1814 acc 0.2070 | 560.7s
+  -> New best val acc: 0.2070
+Epoch   5/50 | lr 2.00e-04 | train loss 3.4121 acc 0.1757 | val loss 2.9788 acc 0.2496 | 560.4s
+  -> New best val acc: 0.2496
+Epoch   6/50 | lr 2.00e-04 | train loss 3.1953 acc 0.2105 | val loss 2.8044 acc 0.2886 | 561.5s
+  -> New best val acc: 0.2886
+Epoch   7/50 | lr 1.99e-04 | train loss 3.0494 acc 0.2368 | val loss 2.7127 acc 0.3060 | 564.4s
+  -> New best val acc: 0.3060
+Epoch   8/50 | lr 1.98e-04 | train loss 2.9113 acc 0.2636 | val loss 2.5531 acc 0.3340 | 562.0s
+  -> New best val acc: 0.3340
+Epoch   9/50 | lr 1.96e-04 | train loss 2.7935 acc 0.2857 | val loss 2.3825 acc 0.3802 | 562.4s
+  -> New best val acc: 0.3802
+Epoch  10/50 | lr 1.94e-04 | train loss 2.7014 acc 0.3054 | val loss 2.4329 acc 0.3720 | 565.2s
+Epoch  11/50 | lr 1.91e-04 | train loss 2.6175 acc 0.3199 | val loss 2.2511 acc 0.3978 | 567.4s
+  -> New best val acc: 0.3978
+Epoch  12/50 | lr 1.88e-04 | train loss 2.5438 acc 0.3390 | val loss 2.1831 acc 0.4174 | 569.2s
+  -> New best val acc: 0.4174
+Epoch  13/50 | lr 1.85e-04 | train loss 2.4682 acc 0.3546 | val loss 2.0984 acc 0.4312 | 567.8s
+  -> New best val acc: 0.4312
+Epoch  14/50 | lr 1.81e-04 | train loss 2.4022 acc 0.3660 | val loss 2.0565 acc 0.4450 | 561.8s
+  -> New best val acc: 0.4450
+Epoch  15/50 | lr 1.77e-04 | train loss 2.3471 acc 0.3809 | val loss 2.0068 acc 0.4558 | 552.2s
+  -> New best val acc: 0.4558
+Epoch  16/50 | lr 1.72e-04 | train loss 2.2725 acc 0.3956 | val loss 1.9878 acc 0.4560 | 546.0s
+  -> New best val acc: 0.4560
+Epoch  17/50 | lr 1.67e-04 | train loss 2.2144 acc 0.4120 | val loss 1.9063 acc 0.4806 | 542.4s
+  -> New best val acc: 0.4806
+Epoch  18/50 | lr 1.62e-04 | train loss 2.1630 acc 0.4206 | val loss 1.8630 acc 0.4964 | 540.9s
+  -> New best val acc: 0.4964
+Epoch  19/50 | lr 1.56e-04 | train loss 2.1104 acc 0.4328 | val loss 1.8264 acc 0.4988 | 540.2s
+  -> New best val acc: 0.4988
+Epoch  20/50 | lr 1.50e-04 | train loss 2.0587 acc 0.4475 | val loss 1.7844 acc 0.5060 | 540.2s
+  -> New best val acc: 0.5060
+Epoch  21/50 | lr 1.44e-04 | train loss 1.9990 acc 0.4595 | val loss 1.7625 acc 0.5122 | 539.1s
+  -> New best val acc: 0.5122
+Epoch  22/50 | lr 1.37e-04 | train loss 1.9475 acc 0.4676 | val loss 1.7115 acc 0.5292 | 538.9s
+  -> New best val acc: 0.5292
+Epoch  23/50 | lr 1.31e-04 | train loss 1.8930 acc 0.4848 | val loss 1.7464 acc 0.5260 | 539.4s
+Epoch  24/50 | lr 1.24e-04 | train loss 1.8591 acc 0.4912 | val loss 1.6659 acc 0.5412 | 539.6s
+  -> New best val acc: 0.5412
+Epoch  25/50 | lr 1.17e-04 | train loss 1.8096 acc 0.5034 | val loss 1.6192 acc 0.5530 | 539.3s
+  -> New best val acc: 0.5530
+Epoch  26/50 | lr 1.10e-04 | train loss 1.7668 acc 0.5161 | val loss 1.6152 acc 0.5462 | 540.6s
+Epoch  27/50 | lr 1.03e-04 | train loss 1.7082 acc 0.5264 | val loss 1.5787 acc 0.5640 | 541.5s
+  -> New best val acc: 0.5640
+Epoch  28/50 | lr 9.65e-05 | train loss 1.6756 acc 0.5353 | val loss 1.5617 acc 0.5728 | 539.8s
+  -> New best val acc: 0.5728
+Epoch  29/50 | lr 8.95e-05 | train loss 1.6227 acc 0.5469 | val loss 1.5214 acc 0.5744 | 539.7s
+  -> New best val acc: 0.5744
+Epoch  30/50 | lr 8.26e-05 | train loss 1.5742 acc 0.5582 | val loss 1.4859 acc 0.5890 | 540.3s
+  -> New best val acc: 0.5890
+Epoch  31/50 | lr 7.58e-05 | train loss 1.5441 acc 0.5664 | val loss 1.5143 acc 0.5834 | 540.8s
+Epoch  32/50 | lr 6.91e-05 | train loss 1.5051 acc 0.5764 | val loss 1.4350 acc 0.6032 | 539.9s
+  -> New best val acc: 0.6032
+Epoch  33/50 | lr 6.25e-05 | train loss 1.4569 acc 0.5853 | val loss 1.4279 acc 0.6056 | 538.9s
+  -> New best val acc: 0.6056
+Epoch  34/50 | lr 5.62e-05 | train loss 1.4274 acc 0.5954 | val loss 1.4121 acc 0.6108 | 539.8s
+  -> New best val acc: 0.6108
+Epoch  35/50 | lr 5.00e-05 | train loss 1.3873 acc 0.6039 | val loss 1.3845 acc 0.6130 | 540.7s
+  -> New best val acc: 0.6130
+Epoch  36/50 | lr 4.41e-05 | train loss 1.3499 acc 0.6146 | val loss 1.3575 acc 0.6206 | 539.9s
+  -> New best val acc: 0.6206
+Epoch  37/50 | lr 3.84e-05 | train loss 1.3180 acc 0.6240 | val loss 1.3586 acc 0.6250 | 539.8s
+  -> New best val acc: 0.6250
+Epoch  38/50 | lr 3.31e-05 | train loss 1.2905 acc 0.6294 | val loss 1.3363 acc 0.6300 | 539.1s
+  -> New best val acc: 0.6300
+Epoch  39/50 | lr 2.81e-05 | train loss 1.2601 acc 0.6402 | val loss 1.3231 acc 0.6332 | 538.0s
+  -> New best val acc: 0.6332
+Epoch  40/50 | lr 2.34e-05 | train loss 1.2279 acc 0.6467 | val loss 1.3095 acc 0.6368 | 537.9s
+  -> New best val acc: 0.6368
+Epoch  41/50 | lr 1.91e-05 | train loss 1.2103 acc 0.6511 | val loss 1.3002 acc 0.6372 | 537.1s
+  -> New best val acc: 0.6372
+Epoch  42/50 | lr 1.52e-05 | train loss 1.1893 acc 0.6565 | val loss 1.2997 acc 0.6350 | 537.2s
+Epoch  43/50 | lr 1.17e-05 | train loss 1.1707 acc 0.6639 | val loss 1.2859 acc 0.6398 | 538.5s
+  -> New best val acc: 0.6398
+Epoch  44/50 | lr 8.65e-06 | train loss 1.1523 acc 0.6684 | val loss 1.2849 acc 0.6480 | 537.1s
+  -> New best val acc: 0.6480
+Epoch  45/50 | lr 6.03e-06 | train loss 1.1343 acc 0.6723 | val loss 1.2725 acc 0.6506 | 537.9s
+  -> New best val acc: 0.6506
+Epoch  46/50 | lr 3.87e-06 | train loss 1.1306 acc 0.6758 | val loss 1.2689 acc 0.6496 | 538.5s
+Epoch  47/50 | lr 2.19e-06 | train loss 1.1265 acc 0.6748 | val loss 1.2672 acc 0.6474 | 539.4s
+Epoch  48/50 | lr 9.73e-07 | train loss 1.1118 acc 0.6780 | val loss 1.2681 acc 0.6506 | 540.9s
+Epoch  49/50 | lr 2.44e-07 | train loss 1.1068 acc 0.6797 | val loss 1.2678 acc 0.6504 | 540.9s
+Epoch  50/50 | lr 0.00e+00 | train loss 1.1098 acc 0.6777 | val loss 1.2676 acc 0.6496 | 541.1s

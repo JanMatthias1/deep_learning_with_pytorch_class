@@ -1,0 +1,15 @@
+Epoch   1/50 | lr 1.04e-04 | train loss 4.4279 acc 0.0357 | val loss 4.1212 acc 0.0646 | 390.5s
+  -> New best val acc: 0.0646
+Epoch   2/50 | lr 2.03e-04 | train loss 4.2266 acc 0.0567 | val loss 3.8929 acc 0.0958 | 389.3s
+  -> New best val acc: 0.0958
+Epoch   3/50 | lr 3.02e-04 | train loss 3.9673 acc 0.0868 | val loss 3.7021 acc 0.1264 | 388.8s
+  -> New best val acc: 0.1264
+Epoch   4/50 | lr 4.01e-04 | train loss 3.8283 acc 0.1090 | val loss 3.5475 acc 0.1474 | 388.9s
+  -> New best val acc: 0.1474
+/users/jmatthia/deep_learning/env/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:198: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+Epoch   5/50 | lr 5.00e-04 | train loss 3.7849 acc 0.1169 | val loss 3.5347 acc 0.1528 | 389.0s
+  -> New best val acc: 0.1528
+Epoch   6/50 | lr 4.99e-04 | train loss 4.3584 acc 0.0495 | val loss 4.6766 acc 0.0094 | 388.7s
+Epoch   7/50 | lr 4.98e-04 | train loss 4.6493 acc 0.0099 | val loss 4.6356 acc 0.0100 | 387.6s
+Epoch   8/50 | lr 4.95e-04 | train loss 4.6283 acc 0.0091 | val loss 4.6181 acc 0.0122 | 387.7s

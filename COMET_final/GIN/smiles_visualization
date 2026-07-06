@@ -1,0 +1,131 @@
+"""
+Lipid Molecule Visualization Script
+Reads lipid SMILES data from CSV and creates a simple visualization
+Shows one representative molecule from each component type
+"""
+
+import pandas as pd
+from rdkit import Chem
+from rdkit.Chem import Draw, AllChem
+import matplotlib.pyplot as plt
+import textwrap
+
+# =============================================================================
+# Load the CSV data
+# =============================================================================
+file_path = r"C:\Users\danie\Local Desktop\lance_lipid_smiles.csv"
+
+# Read the CSV file
+df = pd.read_csv(file_path)
+
+print("\nLipid Data:")
+print(df)
+print(f"\nTotal molecules: {len(df)}")
+
+# =============================================================================
+# Visualize one molecule from each component type
+# =============================================================================
+
+def visualize_representative_molecules(dataframe, img_size=(400, 400), save_path=None):
+    """
+    Create a simple figure showing one molecule from each component type.
+    """
+    # Get one representative from each component type (first occurrence)
+    component_types = dataframe['component_type'].unique()
+    representatives = []
+    
+    for comp_type in component_types:
+        subset = dataframe[dataframe['component_type'] == comp_type]
+        representatives.append(subset.iloc[0])  # Take first molecule of each type
+    
+    n_molecules = len(representatives)
+    
+    # Create figure with subplots (2x2 grid for 4 types)
+    cols = 2
+    rows = (n_molecules + cols - 1) // cols
+    
+    fig, axes = plt.subplots(rows, cols, figsize=(10, 5.5 * rows))
+    fig.suptitle('Representative Lipid Nanoparticle Components', 
+                 fontsize=16, fontweight='bold', y=0.98)
+    
+    # Flatten axes for easy iteration
+    if n_molecules == 1:
+        axes = [axes]
+    else:
+        axes = axes.flatten()
+    
+    for idx, row_data in enumerate(representatives):
+        name = row_data['name']
+        smiles = row_data['smiles']
+        component_type = row_data['component_type']
+        
+        ax = axes[idx]
+        
+        # Generate molecule from SMILES
+        mol = Chem.MolFromSmiles(smiles)
+        
+        if mol is not None:
+            # Clean up the molecule for better rendering
+            try:
+                # Remove explicit hydrogens and sanitize
+                mol = Chem.RemoveHs(mol)
+                AllChem.Compute2DCoords(mol)
+                
+                # Draw with options to hide charges
+                drawer = Draw.MolDraw2DCairo(img_size[0], img_size[1])
+                drawer.drawOptions().addAtomIndices = False
+                drawer.drawOptions().addStereoAnnotation = False
+                drawer.DrawMolecule(mol)
+                drawer.FinishDrawing()
+                
+                # Get the image
+                img = drawer.GetDrawingText()
+                
+                # Convert to PIL Image for matplotlib
+                from PIL import Image
+                import io
+                img_pil = Image.open(io.BytesIO(img))
+                ax.imshow(img_pil)
+                
+            except Exception as e:
+                print(f"Error rendering {name}: {e}")
+                # Fallback to default rendering
+                img = Draw.MolToImage(mol, size=img_size)
+                ax.imshow(img)
+        else:
+            ax.text(0.5, 0.5, 'Invalid SMILES', ha='center', va='center', 
+                    fontsize=12, color='red', transform=ax.transAxes)
+        
+        ax.axis('off')
+        
+        # Add title (molecule name and component type)
+        ax.set_title(f"{name}\n({component_type})", 
+                    fontsize=13, fontweight='bold', pad=10)
+        
+        # Add SMILES code below the image
+        wrapped_smiles = '\n'.join(textwrap.wrap(smiles, width=50))
+        ax.text(0.5, -0.05, wrapped_smiles, ha='center', va='top', 
+                fontsize=8, family='monospace', transform=ax.transAxes,
+                bbox=dict(boxstyle='round,pad=0.4', facecolor='lightgray', alpha=0.5))
+    
+    # Hide empty subplots if any
+    for idx in range(n_molecules, len(axes)):
+        axes[idx].axis('off')
+    
+    # Adjust spacing - more vertical space
+    plt.subplots_adjust(hspace=0.5, wspace=0.3)
+    
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches='tight', facecolor='white')
+        print(f"\nFigure saved to: {save_path}")
+    
+    plt.show()
+
+# =============================================================================
+# Run visualization
+# =============================================================================
+
+save_directory = r"C:\Users\danie\Local Desktop"
+output_path = f"{save_directory}\\representative_lipids.png"
+
+visualize_representative_molecules(df, img_size=(400, 400), save_path=output_path)

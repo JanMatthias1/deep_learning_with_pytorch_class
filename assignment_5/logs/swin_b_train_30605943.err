@@ -1,0 +1,8 @@
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from WANDB_API_KEY.
+wandb: Currently logged in as: jan-matthias (jan-matthias-johns-hopkins-university) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.25.1
+wandb: Run data is saved locally in /users/jmatthia/deep_learning/code/assignment_5/wandb/run-20260405_232810-3s2cm7pa
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run andorian-think-tank-9
+wandb: ⭐️ View project at https://wandb.ai/jan-matthias-johns-hopkins-university/CIFAR100-SwinB-Training
+wandb: 🚀 View run at https://wandb.ai/jan-matthias-johns-hopkins-university/CIFAR100-SwinB-Training/runs/3s2cm7pa

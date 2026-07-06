@@ -1,0 +1,12 @@
+{
+    "in_house_lnp_B16F10_luc_test_spearmanr_coeff": 0.15940569014942507,
+    "in_house_lnp_B16F10_luc_test_spearmanr_p_val": 6.432615964827516e-05,
+    "in_house_lnp_B16F10_luc_test_pearsonr_coeff": 0.15080691556785672,
+    "in_house_lnp_B16F10_luc_test_pearsonr_p_val": 0.0001579627071638247,
+    "in_house_lnp_B16F10_luc_test_top50pct_accuracy": 0.5273311897106109,
+    "in_house_lnp_DC24_luc_test_spearmanr_coeff": 0.6059808305863165,
+    "in_house_lnp_DC24_luc_test_spearmanr_p_val": 1.0282195915711823e-63,
+    "in_house_lnp_DC24_luc_test_pearsonr_coeff": 0.6802989285123969,
+    "in_house_lnp_DC24_luc_test_pearsonr_p_val": 7.538390617732616e-86,
+    "in_house_lnp_DC24_luc_test_top50pct_accuracy": 0.7234726688102894
+}

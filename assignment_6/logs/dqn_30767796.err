@@ -1,0 +1,38 @@
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from WANDB_API_KEY.
+wandb: Currently logged in as: jan-matthias (jan-matthias-johns-hopkins-university) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.25.1
+wandb: Run data is saved locally in /users/jmatthia/deep_learning/code/assignment_6/wandb/run-20260412_131719-h5top41o
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DQN_lr0.0001_bs64_gamma0.99
+wandb: ⭐️ View project at https://wandb.ai/jan-matthias-johns-hopkins-university/DQN-CartPole
+wandb: 🚀 View run at https://wandb.ai/jan-matthias-johns-hopkins-university/DQN-CartPole/runs/h5top41o
+wandb: updating run metadata
+wandb: 
+wandb: Run history:
+wandb:          avg_loss ▁▁▁▁▁▁▁▂▁▃▂▄▃▃▄▄▄▃▂▂▁▁▁▅▆▆█▆▆▇▅▅▃▄▄▄▄▃▂▃
+wandb:    avg_reward_100 ▁▁▁▁▁▁▁▁▁▁▁▁▃▃▆▇███▇▇████▇▇▆▆▇▆▆▆▆▆▆▆▆▆▆
+wandb:  best_eval_reward ▁▁▁▁▄▇▇█
+wandb:       buffer_size ▁▁▂▂▂▂▂▂▂▂▂▂▂▂▃▃▄▅▅▇████████████████████
+wandb:           episode ▁▁▁▁▁▂▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▄▅▅▅▆▆▆▇▇▇▇▇█████
+wandb:    episode_reward ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▅█▄▄▃▄▄▄▅▅▄▄▄▄▄▃▃▃▄▅▄▃▄▃▄▄
+wandb:           epsilon █▆▅▅▅▄▃▃▃▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   eval_avg_reward ▁▁▁▁▁▁▁▁▁▁▄▇▇▇▇▆▆▇█▇█▇█▆▆▆▇▆▇▆▅▆▅▆▅▅▅▆▆▅
+wandb: final_eval_reward ▁
+wandb:       total_steps ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▃▄▄▄▄▄▅▅▅▅▆▆▆▇▇▇▇▇██
+wandb: 
+wandb: Run summary:
+wandb:          avg_loss 0.99722
+wandb:    avg_reward_100 158.72
+wandb:  best_eval_reward 254.6
+wandb:       buffer_size 10000
+wandb:           episode 800
+wandb:    episode_reward 159
+wandb:           epsilon 0.01
+wandb:   eval_avg_reward 158.5
+wandb: final_eval_reward 161.85
+wandb:       total_steps 110823
+wandb: 
+wandb: 🚀 View run DQN_lr0.0001_bs64_gamma0.99 at: https://wandb.ai/jan-matthias-johns-hopkins-university/DQN-CartPole/runs/h5top41o
+wandb: ⭐️ View project at: https://wandb.ai/jan-matthias-johns-hopkins-university/DQN-CartPole
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260412_131719-h5top41o/logs

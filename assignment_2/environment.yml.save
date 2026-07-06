@@ -1,0 +1,6 @@
+name: dl_env_2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+prefix: /dcs04/hicks/data/multi-sample-alignment-benchmark/envs/dl_env_2

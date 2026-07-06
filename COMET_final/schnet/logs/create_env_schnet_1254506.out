@@ -1,0 +1,753 @@
+============================================
+Creating SchNet environment at: /home/jmatthi2/deep_learning/env_schnet
+============================================
+Channels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/jmatthi2/deep_learning/env_schnet
+
+  added / updated specs:
+    - python=3.10
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2026.3.19  |       h06a4308_0         126 KB
+    ld_impl_linux-64-2.44      |       h9e0c5a2_3         725 KB
+    libexpat-2.7.5             |       h7354ed3_0         122 KB
+    openssl-3.5.5              |       h1b28b03_0         5.5 MB
+    packaging-26.0             |  py310h06a4308_0         165 KB
+    pip-26.0.1                 |     pyhc872135_1         1.1 MB
+    python-3.10.20             |       h741d88c_0        24.1 MB
+    setuptools-82.0.1          |  py310h06a4308_0         1.2 MB
+    sqlite-3.51.2              |       h3e8d24a_0         1.2 MB
+    tzdata-2026a               |       he532380_0         117 KB
+    wheel-0.46.3               |  py310h06a4308_0          54 KB
+    xz-5.8.2                   |       h448239c_0         621 KB
+    ------------------------------------------------------------
+                                           Total:        35.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h5eee18b_6 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2026.3.19-h06a4308_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.44-h9e0c5a2_3 
+  libexpat           pkgs/main/linux-64::libexpat-2.7.5-h7354ed3_0 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_1 
+  libgcc             pkgs/main/linux-64::libgcc-15.2.0-h69a1729_7 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-15.2.0-h166f726_7 
+  libgomp            pkgs/main/linux-64::libgomp-15.2.0-h4751f2c_7 
+  libnsl             pkgs/main/linux-64::libnsl-2.0.0-h5eee18b_0 
+  libstdcxx          pkgs/main/linux-64::libstdcxx-15.2.0-h39759b7_7 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-15.2.0-hc03a8fd_7 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  libxcb             pkgs/main/linux-64::libxcb-1.17.0-h9b100fa_0 
+  libzlib            pkgs/main/linux-64::libzlib-1.3.1-hb25bd0a_0 
+  ncurses            pkgs/main/linux-64::ncurses-6.5-h7934f7d_0 
+  openssl            pkgs/main/linux-64::openssl-3.5.5-h1b28b03_0 
+  packaging          pkgs/main/linux-64::packaging-26.0-py310h06a4308_0 
+  pip                pkgs/main/noarch::pip-26.0.1-pyhc872135_1 
+  pthread-stubs      pkgs/main/linux-64::pthread-stubs-0.3-h0ce48e5_1 
+  python             pkgs/main/linux-64::python-3.10.20-h741d88c_0 
+  readline           pkgs/main/linux-64::readline-8.3-hc2a1206_0 
+  setuptools         pkgs/main/linux-64::setuptools-82.0.1-py310h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.51.2-h3e8d24a_0 
+  tk                 pkgs/main/linux-64::tk-8.6.15-h54e0aa7_0 
+  tzdata             pkgs/main/noarch::tzdata-2026a-he532380_0 
+  wheel              pkgs/main/linux-64::wheel-0.46.3-py310h06a4308_0 
+  xorg-libx11        pkgs/main/linux-64::xorg-libx11-1.8.12-h9b100fa_1 
+  xorg-libxau        pkgs/main/linux-64::xorg-libxau-1.0.12-h9b100fa_0 
+  xorg-libxdmcp      pkgs/main/linux-64::xorg-libxdmcp-1.1.5-h9b100fa_0 
+  xorg-xorgproto     pkgs/main/linux-64::xorg-xorgproto-2024.1-h5eee18b_1 
+  xz                 pkgs/main/linux-64::xz-5.8.2-h448239c_0 
+  zlib               pkgs/main/linux-64::zlib-1.3.1-hb25bd0a_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate /home/jmatthi2/deep_learning/env_schnet
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Channels:
+ - pytorch
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/jmatthi2/deep_learning/env_schnet
+
+  added / updated specs:
+    - cpuonly
+    - pytorch
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cpuonly-2.0                |                0           2 KB  pytorch
+    filelock-3.20.3            |  py310h06a4308_0          34 KB
+    gmp-6.3.0                  |       h6a678d5_0         608 KB
+    gmpy2-2.2.2                |  py310ha78e65c_0         253 KB
+    intel-openmp-2025.0.0      |    h06a4308_1171        22.3 MB
+    jinja2-3.1.6               |  py310h06a4308_0         277 KB
+    libhwloc-2.12.1            |default_hf1bbc79_1000         2.4 MB
+    llvm-openmp-14.0.6         |       h9e868ea_0         4.4 MB
+    markupsafe-3.0.2           |  py310h5eee18b_0          24 KB
+    mkl-2025.0.0               |     hacee8c2_941       127.4 MB
+    mpc-1.3.1                  |       h5eee18b_0         129 KB
+    mpfr-4.2.1                 |       h5eee18b_0         821 KB
+    mpmath-1.3.0               |  py310h06a4308_0         834 KB
+    networkx-3.4.2             |  py310h06a4308_0         2.5 MB
+    pytorch-2.5.1              |     py3.10_cpu_0        88.1 MB  pytorch
+    pytorch-mutex-1.0          |              cpu           3 KB  pytorch
+    pyyaml-6.0.3               |  py310h591646f_0         221 KB
+    sympy-1.14.0               |  py310h06a4308_1        10.6 MB
+    tbb-2022.3.0               |       h698db13_0         181 KB
+    tbb-devel-2022.3.0         |       h698db13_0         1.1 MB
+    typing_extensions-4.15.0   |  py310h06a4308_0          80 KB
+    ------------------------------------------------------------
+                                           Total:       262.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  cpuonly            pytorch/noarch::cpuonly-2.0-0 
+  filelock           pkgs/main/linux-64::filelock-3.20.3-py310h06a4308_0 
+  gmp                pkgs/main/linux-64::gmp-6.3.0-h6a678d5_0 
+  gmpy2              pkgs/main/linux-64::gmpy2-2.2.2-py310ha78e65c_0 
+  icu                pkgs/main/linux-64::icu-73.1-h6a678d5_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2025.0.0-h06a4308_1171 
+  jinja2             pkgs/main/linux-64::jinja2-3.1.6-py310h06a4308_0 
+  libhwloc           pkgs/main/linux-64::libhwloc-2.12.1-default_hf1bbc79_1000 
+  libxml2            pkgs/main/linux-64::libxml2-2.13.9-h2c43086_0 
+  llvm-openmp        pkgs/main/linux-64::llvm-openmp-14.0.6-h9e868ea_0 
+  markupsafe         pkgs/main/linux-64::markupsafe-3.0.2-py310h5eee18b_0 
+  mkl                pkgs/main/linux-64::mkl-2025.0.0-hacee8c2_941 
+  mpc                pkgs/main/linux-64::mpc-1.3.1-h5eee18b_0 
+  mpfr               pkgs/main/linux-64::mpfr-4.2.1-h5eee18b_0 
+  mpmath             pkgs/main/linux-64::mpmath-1.3.0-py310h06a4308_0 
+  networkx           pkgs/main/linux-64::networkx-3.4.2-py310h06a4308_0 
+  pytorch            pytorch/linux-64::pytorch-2.5.1-py3.10_cpu_0 
+  pytorch-mutex      pytorch/noarch::pytorch-mutex-1.0-cpu 
+  pyyaml             pkgs/main/linux-64::pyyaml-6.0.3-py310h591646f_0 
+  sympy              pkgs/main/linux-64::sympy-1.14.0-py310h06a4308_1 
+  tbb                pkgs/main/linux-64::tbb-2022.3.0-h698db13_0 
+  tbb-devel          pkgs/main/linux-64::tbb-devel-2022.3.0-h698db13_0 
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.15.0-py310h06a4308_0 
+  yaml               pkgs/main/linux-64::yaml-0.2.5-h7b6447c_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Collecting torch_geometric
+  Downloading torch_geometric-2.7.0-py3-none-any.whl.metadata (63 kB)
+Collecting aiohttp (from torch_geometric)
+  Downloading aiohttp-3.13.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.1 kB)
+Collecting fsspec (from torch_geometric)
+  Downloading fsspec-2026.3.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: jinja2 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from torch_geometric) (3.1.6)
+Collecting numpy (from torch_geometric)
+  Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+Collecting psutil>=5.8.0 (from torch_geometric)
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+Collecting pyparsing (from torch_geometric)
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting requests (from torch_geometric)
+  Downloading requests-2.33.1-py3-none-any.whl.metadata (4.8 kB)
+Collecting tqdm (from torch_geometric)
+  Downloading tqdm-4.67.3-py3-none-any.whl.metadata (57 kB)
+Collecting xxhash (from torch_geometric)
+  Downloading xxhash-3.6.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp->torch_geometric)
+  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp->torch_geometric)
+  Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting async-timeout<6.0,>=4.0 (from aiohttp->torch_geometric)
+  Downloading async_timeout-5.0.1-py3-none-any.whl.metadata (5.1 kB)
+Collecting attrs>=17.3.0 (from aiohttp->torch_geometric)
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp->torch_geometric)
+  Downloading frozenlist-1.8.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp->torch_geometric)
+  Downloading multidict-6.7.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+Collecting propcache>=0.2.0 (from aiohttp->torch_geometric)
+  Downloading propcache-0.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp->torch_geometric)
+  Downloading yarl-1.23.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+Requirement already satisfied: typing-extensions>=4.1.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from multidict<7.0,>=4.5->aiohttp->torch_geometric) (4.15.0)
+Collecting idna>=2.0 (from yarl<2.0,>=1.17.0->aiohttp->torch_geometric)
+  Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from jinja2->torch_geometric) (3.0.2)
+Collecting charset_normalizer<4,>=2 (from requests->torch_geometric)
+  Downloading charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting urllib3<3,>=1.26 (from requests->torch_geometric)
+  Downloading urllib3-2.6.3-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2023.5.7 (from requests->torch_geometric)
+  Downloading certifi-2026.2.25-py3-none-any.whl.metadata (2.5 kB)
+Downloading torch_geometric-2.7.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 46.9 MB/s  0:00:00
+Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+Downloading aiohttp-3.13.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 94.3 MB/s  0:00:00
+Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Downloading multidict-6.7.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (243 kB)
+Downloading yarl-1.23.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (102 kB)
+Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Downloading frozenlist-1.8.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (219 kB)
+Downloading idna-3.11-py3-none-any.whl (71 kB)
+Downloading propcache-0.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (196 kB)
+Downloading fsspec-2026.3.0-py3-none-any.whl (202 kB)
+Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 178.5 MB/s  0:00:00
+Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Downloading requests-2.33.1-py3-none-any.whl (64 kB)
+Downloading charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (216 kB)
+Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+Downloading certifi-2026.2.25-py3-none-any.whl (153 kB)
+Downloading tqdm-4.67.3-py3-none-any.whl (78 kB)
+Downloading xxhash-3.6.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (193 kB)
+Installing collected packages: xxhash, urllib3, tqdm, pyparsing, psutil, propcache, numpy, multidict, idna, fsspec, frozenlist, charset_normalizer, certifi, attrs, async-timeout, aiohappyeyeballs, yarl, requests, aiosignal, aiohttp, torch_geometric
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torch 2.5.1 requires sympy==1.13.1, but you have sympy 1.14.0 which is incompatible.
+Successfully installed aiohappyeyeballs-2.6.1 aiohttp-3.13.5 aiosignal-1.4.0 async-timeout-5.0.1 attrs-26.1.0 certifi-2026.2.25 charset_normalizer-3.4.7 frozenlist-1.8.0 fsspec-2026.3.0 idna-3.11 multidict-6.7.1 numpy-2.2.6 propcache-0.4.1 psutil-7.2.2 pyparsing-3.3.2 requests-2.33.1 torch_geometric-2.7.0 tqdm-4.67.3 urllib3-2.6.3 xxhash-3.6.0 yarl-1.23.0
+Collecting schnetpack
+  Downloading schnetpack-2.1.1-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: numpy>=2.0.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from schnetpack) (2.2.6)
+Collecting sympy<=1.12 (from schnetpack)
+  Downloading sympy-1.12-py3-none-any.whl.metadata (12 kB)
+Collecting ase>=3.21 (from schnetpack)
+  Downloading ase-3.28.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting h5py (from schnetpack)
+  Downloading h5py-3.16.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+Requirement already satisfied: pyyaml in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from schnetpack) (6.0.3)
+Collecting hydra-core>=1.1.0 (from schnetpack)
+  Downloading hydra_core-1.3.2-py3-none-any.whl.metadata (5.5 kB)
+Requirement already satisfied: torch>=1.9 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from schnetpack) (2.5.1)
+Collecting pytorch-lightning>=2.0.0 (from schnetpack)
+  Downloading pytorch_lightning-2.6.1-py3-none-any.whl.metadata (21 kB)
+Collecting torchmetrics (from schnetpack)
+  Downloading torchmetrics-1.9.0-py3-none-any.whl.metadata (23 kB)
+Collecting hydra-colorlog>=1.1.0 (from schnetpack)
+  Downloading hydra_colorlog-1.2.0-py3-none-any.whl.metadata (949 bytes)
+Collecting rich (from schnetpack)
+  Downloading rich-14.3.3-py3-none-any.whl.metadata (18 kB)
+Collecting fasteners (from schnetpack)
+  Downloading fasteners-0.20-py3-none-any.whl.metadata (4.8 kB)
+Collecting dirsync (from schnetpack)
+  Downloading dirsync-2.2.6-py3-none-any.whl.metadata (5.5 kB)
+Collecting torch-ema (from schnetpack)
+  Downloading torch_ema-0.3-py3-none-any.whl.metadata (415 bytes)
+Collecting matscipy>=1.1.0 (from schnetpack)
+  Downloading matscipy-1.2.0-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (37 kB)
+Collecting tensorboard>=2.17.1 (from schnetpack)
+  Downloading tensorboard-2.20.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting tensorboardX>=2.6.2.2 (from schnetpack)
+  Downloading tensorboardx-2.6.5-py3-none-any.whl.metadata (6.6 kB)
+Requirement already satisfied: tqdm in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from schnetpack) (4.67.3)
+Collecting pre-commit (from schnetpack)
+  Downloading pre_commit-4.5.1-py2.py3-none-any.whl.metadata (1.2 kB)
+Collecting black (from schnetpack)
+  Downloading black-26.3.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+Collecting protobuf (from schnetpack)
+  Downloading protobuf-7.34.1-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+Requirement already satisfied: mpmath>=0.19 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from sympy<=1.12->schnetpack) (1.3.0)
+Collecting scipy>=1.8.1 (from ase>=3.21->schnetpack)
+  Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting matplotlib>=3.5.2 (from ase>=3.21->schnetpack)
+  Downloading matplotlib-3.10.8-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (52 kB)
+Collecting colorlog (from hydra-colorlog>=1.1.0->schnetpack)
+  Downloading colorlog-6.10.1-py3-none-any.whl.metadata (11 kB)
+Collecting omegaconf<2.4,>=2.2 (from hydra-core>=1.1.0->schnetpack)
+  Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting antlr4-python3-runtime==4.9.* (from hydra-core>=1.1.0->schnetpack)
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: packaging in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from hydra-core>=1.1.0->schnetpack) (26.0)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.5.2->ase>=3.21->schnetpack)
+  Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.5.2->ase>=3.21->schnetpack)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib>=3.5.2->ase>=3.21->schnetpack)
+  Downloading fonttools-4.62.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (117 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.5.2->ase>=3.21->schnetpack)
+  Downloading kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.1 kB)
+Collecting pillow>=8 (from matplotlib>=3.5.2->ase>=3.21->schnetpack)
+  Downloading pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+Requirement already satisfied: pyparsing>=3 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib>=3.5.2->ase>=3.21->schnetpack) (3.3.2)
+Collecting python-dateutil>=2.7 (from matplotlib>=3.5.2->ase>=3.21->schnetpack)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib>=3.5.2->ase>=3.21->schnetpack)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: fsspec>=2022.5.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (2026.3.0)
+Requirement already satisfied: typing-extensions>4.5.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from pytorch-lightning>=2.0.0->schnetpack) (4.15.0)
+Collecting lightning-utilities>=0.10.0 (from pytorch-lightning>=2.0.0->schnetpack)
+  Downloading lightning_utilities-0.15.3-py3-none-any.whl.metadata (5.5 kB)
+Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (3.13.5)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (1.4.0)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (5.0.1)
+Requirement already satisfied: attrs>=17.3.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (26.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (6.7.1)
+Requirement already satisfied: propcache>=0.2.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (1.23.0)
+Requirement already satisfied: idna>=2.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from yarl<2.0,>=1.17.0->aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>=2022.5.0->pytorch-lightning>=2.0.0->schnetpack) (3.11)
+Collecting absl-py>=0.4 (from tensorboard>=2.17.1->schnetpack)
+  Downloading absl_py-2.4.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting grpcio>=1.48.2 (from tensorboard>=2.17.1->schnetpack)
+  Downloading grpcio-1.80.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.8 kB)
+Collecting markdown>=2.6.8 (from tensorboard>=2.17.1->schnetpack)
+  Downloading markdown-3.10.2-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: setuptools>=41.0.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from tensorboard>=2.17.1->schnetpack) (82.0.1)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard>=2.17.1->schnetpack)
+  Downloading tensorboard_data_server-0.7.2-py3-none-any.whl.metadata (1.1 kB)
+Collecting werkzeug>=1.0.1 (from tensorboard>=2.17.1->schnetpack)
+  Downloading werkzeug-3.1.8-py3-none-any.whl.metadata (4.0 kB)
+Requirement already satisfied: filelock in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from torch>=1.9->schnetpack) (3.20.3)
+Requirement already satisfied: networkx in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from torch>=1.9->schnetpack) (3.4.2)
+Requirement already satisfied: jinja2 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from torch>=1.9->schnetpack) (3.1.6)
+INFO: pip is looking at multiple versions of torch to determine which version is compatible with other requirements. This could take a while.
+Collecting torch>=1.9 (from schnetpack)
+  Downloading torch-2.11.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+Collecting setuptools>=41.0.0 (from tensorboard>=2.17.1->schnetpack)
+  Downloading setuptools-81.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting torch>=1.9 (from schnetpack)
+  Downloading torch-2.10.0-3-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (31 kB)
+  Downloading torch-2.9.1-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (30 kB)
+  Downloading torch-2.9.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (30 kB)
+  Downloading torch-2.8.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (30 kB)
+  Downloading torch-2.7.1-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+  Downloading torch-2.7.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
+INFO: pip is still looking at multiple versions of torch to determine which version is compatible with other requirements. This could take a while.
+  Downloading torch-2.6.0-cp310-cp310-manylinux1_x86_64.whl.metadata (28 kB)
+Collecting nvidia-cuda-nvrtc-cu12==12.4.127 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-runtime-cu12==12.4.127 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-cupti-cu12==12.4.127 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cudnn-cu12==9.1.0.70 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cublas-cu12==12.4.5.8 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cufft-cu12==11.2.1.3 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-curand-cu12==10.3.5.147 (from torch>=1.9->schnetpack)
+  Downloading nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cusolver-cu12==11.6.1.9 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cusparse-cu12==12.3.1.170 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cusparselt-cu12==0.6.2 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting nvidia-nccl-cu12==2.21.5 (from torch>=1.9->schnetpack)
+  Downloading nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvtx-cu12==12.4.127 (from torch>=1.9->schnetpack)
+  Downloading nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-nvjitlink-cu12==12.4.127 (from torch>=1.9->schnetpack)
+  Downloading nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting triton==3.2.0 (from torch>=1.9->schnetpack)
+  Downloading triton-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.4 kB)
+Collecting torch>=1.9 (from schnetpack)
+  Downloading torch-2.5.0-cp310-cp310-manylinux1_x86_64.whl.metadata (28 kB)
+Collecting triton==3.1.0 (from torch>=1.9->schnetpack)
+  Downloading triton-3.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.3 kB)
+Collecting torch>=1.9 (from schnetpack)
+  Downloading torch-2.4.1-cp310-cp310-manylinux1_x86_64.whl.metadata (26 kB)
+Collecting nvidia-cuda-nvrtc-cu12==12.1.105 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-runtime-cu12==12.1.105 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-cupti-cu12==12.1.105 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cublas-cu12==12.1.3.1 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cufft-cu12==11.0.2.54 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-curand-cu12==10.3.2.106 (from torch>=1.9->schnetpack)
+  Downloading nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cusolver-cu12==11.4.5.107 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cusparse-cu12==12.1.0.106 (from torch>=1.9->schnetpack)
+  Downloading nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-nccl-cu12==2.20.5 (from torch>=1.9->schnetpack)
+  Downloading nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvtx-cu12==12.1.105 (from torch>=1.9->schnetpack)
+  Downloading nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.7 kB)
+Collecting triton==3.0.0 (from torch>=1.9->schnetpack)
+  Downloading triton-3.0.0-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.3 kB)
+Collecting nvidia-nvjitlink-cu12 (from nvidia-cusolver-cu12==11.4.5.107->torch>=1.9->schnetpack)
+  Downloading nvidia_nvjitlink_cu12-12.9.86-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.7 kB)
+Requirement already satisfied: markupsafe>=2.1.1 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from werkzeug>=1.0.1->tensorboard>=2.17.1->schnetpack) (3.0.2)
+Collecting click>=8.0.0 (from black->schnetpack)
+  Downloading click-8.3.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting mypy-extensions>=0.4.3 (from black->schnetpack)
+  Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting pathspec>=1.0.0 (from black->schnetpack)
+  Downloading pathspec-1.0.4-py3-none-any.whl.metadata (13 kB)
+Collecting platformdirs>=2 (from black->schnetpack)
+  Downloading platformdirs-4.9.4-py3-none-any.whl.metadata (4.7 kB)
+Collecting pytokens~=0.4.0 (from black->schnetpack)
+  Downloading pytokens-0.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Collecting tomli>=1.1.0 (from black->schnetpack)
+  Downloading tomli-2.4.1-py3-none-any.whl.metadata (10 kB)
+Collecting cfgv>=2.0.0 (from pre-commit->schnetpack)
+  Downloading cfgv-3.5.0-py2.py3-none-any.whl.metadata (8.9 kB)
+Collecting identify>=1.0.0 (from pre-commit->schnetpack)
+  Downloading identify-2.6.18-py2.py3-none-any.whl.metadata (4.4 kB)
+Collecting nodeenv>=0.11.1 (from pre-commit->schnetpack)
+  Downloading nodeenv-1.10.0-py2.py3-none-any.whl.metadata (24 kB)
+Collecting virtualenv>=20.10.0 (from pre-commit->schnetpack)
+  Downloading virtualenv-21.2.0-py3-none-any.whl.metadata (3.5 kB)
+Collecting distlib<1,>=0.3.7 (from virtualenv>=20.10.0->pre-commit->schnetpack)
+  Downloading distlib-0.4.0-py2.py3-none-any.whl.metadata (5.2 kB)
+Collecting filelock (from torch>=1.9->schnetpack)
+  Downloading filelock-3.25.2-py3-none-any.whl.metadata (2.0 kB)
+Collecting python-discovery>=1 (from virtualenv>=20.10.0->pre-commit->schnetpack)
+  Downloading python_discovery-1.2.1-py3-none-any.whl.metadata (5.4 kB)
+Collecting markdown-it-py>=2.2.0 (from rich->schnetpack)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich->schnetpack)
+  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->schnetpack)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading schnetpack-2.1.1-py3-none-any.whl (244 kB)
+Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.7/5.7 MB 112.3 MB/s  0:00:00
+Downloading ase-3.28.0-py3-none-any.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 61.9 MB/s  0:00:00
+Downloading hydra_colorlog-1.2.0-py3-none-any.whl (3.6 kB)
+Downloading hydra_core-1.3.2-py3-none-any.whl (154 kB)
+Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Downloading matplotlib-3.10.8-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 202.4 MB/s  0:00:00
+Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (325 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.62.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 128.7 MB/s  0:00:00
+Downloading kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 107.0 MB/s  0:00:00
+Downloading matscipy-1.2.0-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (452 kB)
+Downloading pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 101.1 MB/s  0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading pytorch_lightning-2.6.1-py3-none-any.whl (857 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 857.3/857.3 kB 47.2 MB/s  0:00:00
+Downloading lightning_utilities-0.15.3-py3-none-any.whl (31 kB)
+Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 173.1 MB/s  0:00:00
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tensorboard-2.20.0-py3-none-any.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 86.2 MB/s  0:00:00
+Downloading tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+Downloading absl_py-2.4.0-py3-none-any.whl (135 kB)
+Downloading grpcio-1.80.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (6.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.8/6.8 MB 236.2 MB/s  0:00:00
+Downloading markdown-3.10.2-py3-none-any.whl (108 kB)
+Downloading protobuf-7.34.1-cp310-abi3-manylinux2014_x86_64.whl (324 kB)
+Downloading tensorboardx-2.6.5-py3-none-any.whl (87 kB)
+Downloading torch-2.4.1-cp310-cp310-manylinux1_x86_64.whl (797.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.1/797.1 MB 64.3 MB/s  0:00:10
+Downloading nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl (410.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 410.6/410.6 MB 116.5 MB/s  0:00:03
+Downloading nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (14.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.1/14.1 MB 82.9 MB/s  0:00:00
+Downloading nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (23.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.7/23.7 MB 91.8 MB/s  0:00:00
+Downloading nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (823 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 823.6/823.6 kB 44.2 MB/s  0:00:00
+Downloading nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl (664.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 664.8/664.8 MB 107.5 MB/s  0:00:05
+Downloading nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl (121.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.6/121.6 MB 165.7 MB/s  0:00:00
+Downloading nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl (56.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.5/56.5 MB 130.7 MB/s  0:00:00
+Downloading nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl (124.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 MB 98.0 MB/s  0:00:01
+Downloading nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl (196.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 196.0/196.0 MB 122.1 MB/s  0:00:01
+Downloading nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl (176.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 176.2/176.2 MB 110.1 MB/s  0:00:01
+Downloading nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (99 kB)
+Downloading triton-3.0.0-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (209.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 209.4/209.4 MB 113.6 MB/s  0:00:01
+Downloading torchmetrics-1.9.0-py3-none-any.whl (983 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 983.4/983.4 kB 37.7 MB/s  0:00:00
+Downloading werkzeug-3.1.8-py3-none-any.whl (226 kB)
+Downloading black-26.3.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 86.0 MB/s  0:00:00
+Downloading pytokens-0.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (259 kB)
+Downloading click-8.3.2-py3-none-any.whl (108 kB)
+Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Downloading pathspec-1.0.4-py3-none-any.whl (55 kB)
+Downloading platformdirs-4.9.4-py3-none-any.whl (21 kB)
+Downloading tomli-2.4.1-py3-none-any.whl (14 kB)
+Downloading colorlog-6.10.1-py3-none-any.whl (11 kB)
+Downloading dirsync-2.2.6-py3-none-any.whl (12 kB)
+Downloading fasteners-0.20-py3-none-any.whl (18 kB)
+Downloading h5py-3.16.0-cp310-cp310-manylinux_2_28_x86_64.whl (5.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.1/5.1 MB 75.6 MB/s  0:00:00
+Downloading nvidia_nvjitlink_cu12-12.9.86-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (39.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.7/39.7 MB 103.8 MB/s  0:00:00
+Downloading pre_commit-4.5.1-py2.py3-none-any.whl (226 kB)
+Downloading cfgv-3.5.0-py2.py3-none-any.whl (7.4 kB)
+Downloading identify-2.6.18-py2.py3-none-any.whl (99 kB)
+Downloading nodeenv-1.10.0-py2.py3-none-any.whl (23 kB)
+Downloading virtualenv-21.2.0-py3-none-any.whl (5.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.8/5.8 MB 191.9 MB/s  0:00:00
+Downloading distlib-0.4.0-py2.py3-none-any.whl (469 kB)
+Downloading filelock-3.25.2-py3-none-any.whl (26 kB)
+Downloading python_discovery-1.2.1-py3-none-any.whl (31 kB)
+Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+Downloading pygments-2.20.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 89.9 MB/s  0:00:00
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading torch_ema-0.3-py3-none-any.whl (5.5 kB)
+Building wheels for collected packages: antlr4-python3-runtime
+  Building wheel for antlr4-python3-runtime (pyproject.toml): started
+  Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144590 sha256=f6f54b08c9f515a14d79f4f8428c60226cc9c53339e144a7f0927a33951d22ca
+  Stored in directory: /weka/home/jmatthi2/.cache/pip/wheels/12/93/dd/1f6a127edc45659556564c5730f6d4e300888f4bca2d4c5a88
+Successfully built antlr4-python3-runtime
+Installing collected packages: distlib, dirsync, antlr4-python3-runtime, werkzeug, tomli, tensorboard-data-server, sympy, six, scipy, pytokens, pygments, protobuf, platformdirs, pillow, pathspec, omegaconf, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, nodeenv, mypy-extensions, mdurl, markdown, lightning-utilities, kiwisolver, identify, h5py, grpcio, fonttools, filelock, fasteners, cycler, contourpy, colorlog, click, cfgv, absl-py, triton, tensorboardX, tensorboard, python-discovery, python-dateutil, nvidia-cusparse-cu12, nvidia-cudnn-cu12, markdown-it-py, hydra-core, black, virtualenv, rich, nvidia-cusolver-cu12, matplotlib, hydra-colorlog, torch, pre-commit, ase, torchmetrics, torch-ema, matscipy, pytorch-lightning, schnetpack
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.14.0
+    Uninstalling sympy-1.14.0:
+      Successfully uninstalled sympy-1.14.0
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.20.3
+    Uninstalling filelock-3.20.3:
+      Successfully uninstalled filelock-3.20.3
+  Attempting uninstall: torch
+    Found existing installation: torch 2.5.1
+    Uninstalling torch-2.5.1:
+      Successfully uninstalled torch-2.5.1
+
+Successfully installed absl-py-2.4.0 antlr4-python3-runtime-4.9.3 ase-3.28.0 black-26.3.1 cfgv-3.5.0 click-8.3.2 colorlog-6.10.1 contourpy-1.3.2 cycler-0.12.1 dirsync-2.2.6 distlib-0.4.0 fasteners-0.20 filelock-3.25.2 fonttools-4.62.1 grpcio-1.80.0 h5py-3.16.0 hydra-colorlog-1.2.0 hydra-core-1.3.2 identify-2.6.18 kiwisolver-1.5.0 lightning-utilities-0.15.3 markdown-3.10.2 markdown-it-py-4.0.0 matplotlib-3.10.8 matscipy-1.2.0 mdurl-0.1.2 mypy-extensions-1.1.0 nodeenv-1.10.0 nvidia-cublas-cu12-12.1.3.1 nvidia-cuda-cupti-cu12-12.1.105 nvidia-cuda-nvrtc-cu12-12.1.105 nvidia-cuda-runtime-cu12-12.1.105 nvidia-cudnn-cu12-9.1.0.70 nvidia-cufft-cu12-11.0.2.54 nvidia-curand-cu12-10.3.2.106 nvidia-cusolver-cu12-11.4.5.107 nvidia-cusparse-cu12-12.1.0.106 nvidia-nccl-cu12-2.20.5 nvidia-nvjitlink-cu12-12.9.86 nvidia-nvtx-cu12-12.1.105 omegaconf-2.3.0 pathspec-1.0.4 pillow-12.2.0 platformdirs-4.9.4 pre-commit-4.5.1 protobuf-7.34.1 pygments-2.20.0 python-dateutil-2.9.0.post0 python-discovery-1.2.1 pytokens-0.4.1 pytorch-lightning-2.6.1 rich-14.3.3 schnetpack-2.1.1 scipy-1.15.3 six-1.17.0 sympy-1.12 tensorboard-2.20.0 tensorboard-data-server-0.7.2 tensorboardX-2.6.5 tomli-2.4.1 torch-2.4.1 torch-ema-0.3 torchmetrics-1.9.0 triton-3.0.0 virtualenv-21.2.0 werkzeug-3.1.8
+Channels:
+ - conda-forge
+ - defaults
+ - pytorch
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/jmatthi2/deep_learning/env_schnet
+
+  added / updated specs:
+    - rdkit
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cairo-1.18.4               |       he90730b_1         966 KB  conda-forge
+    charset-normalizer-3.4.7   |     pyhd8ed1ab_0          57 KB  conda-forge
+    contourpy-1.3.2            |  py310h3788b33_0         255 KB  conda-forge
+    cyrus-sasl-2.1.28          |       hac629b4_1         205 KB  conda-forge
+    eigen-abi-3.4.0.100        |       h3bcb7cf_2          13 KB  conda-forge
+    fonttools-4.62.0           |  py310h3406613_0         2.3 MB  conda-forge
+    freetype-2.14.3            |       ha770c72_0         170 KB  conda-forge
+    freetype-py-2.3.0          |     pyhd8ed1ab_0          58 KB  conda-forge
+    greenlet-3.3.2             |  py310h25320af_0         226 KB  conda-forge
+    kiwisolver-1.5.0           |  py310haaf941d_0          76 KB  conda-forge
+    lcms2-2.18                 |       h0c24ade_0         244 KB  conda-forge
+    libboost-1.86.0            |       hd24cca6_5         3.0 MB  conda-forge
+    libboost-python-1.86.0     |  py310hc563356_5         118 KB  conda-forge
+    libdeflate-1.25            |       h17f619e_0          72 KB  conda-forge
+    libfreetype-2.14.3         |       ha770c72_0           8 KB  conda-forge
+    libfreetype6-2.14.3        |       h73754d4_0         376 KB  conda-forge
+    libglib-2.86.3             |       h8b17d9a_0         3.9 MB
+    libhwloc-2.12.1            |default_hafda6a7_1003         2.3 MB  conda-forge
+    libnsl-2.0.1               |       hb9d3cd8_1          33 KB  conda-forge
+    libntlm-1.8                |       hb9d3cd8_0          33 KB  conda-forge
+    libpng-1.6.56              |       h421ea60_0         310 KB  conda-forge
+    libpq-18.3                 |       h9abb657_0         2.7 MB  conda-forge
+    librdkit-2026.03.1         |       h4dfd318_0         9.9 MB  conda-forge
+    libtiff-4.7.1              |       h9d88235_1         425 KB  conda-forge
+    libuuid-2.42               |       h5347b49_0          39 KB  conda-forge
+    libxml2-2.15.2             |       he237659_0          45 KB  conda-forge
+    libxml2-16-2.15.2          |       hca6bf5a_0         544 KB  conda-forge
+    matplotlib-base-3.10.8     |  py310hfde16b3_0         6.9 MB  conda-forge
+    mkl-service-2.5.2          |  py310hacdc0fc_0          72 KB
+    mkl_fft-2.1.1              |  py310h8fe796d_0         152 KB
+    mkl_random-1.3.0           |  py310h505adc9_0         302 KB
+    numpy-2.2.5                |  py310h64c44e4_2          11 KB
+    numpy-base-2.2.5           |  py310he1678cf_2         7.4 MB
+    openjpeg-2.5.4             |       h55fea9a_0         347 KB  conda-forge
+    openldap-2.6.10            |       hbde042b_1         767 KB  conda-forge
+    pandas-2.3.3               |  py310h0158d43_2        11.8 MB  conda-forge
+    pillow-12.2.0              |  py310h5a73078_0         870 KB  conda-forge
+    pycairo-1.29.0             |  py310h8c3e0f7_1         116 KB  conda-forge
+    python-3.10.20             |h3c07f61_0_cpython        24.3 MB  conda-forge
+    python-tzdata-2026.1       |     pyhd8ed1ab_0         144 KB  conda-forge
+    python_abi-3.10            |          8_cp310           7 KB  conda-forge
+    pytz-2026.1.post1          |     pyhcf101f3_0         197 KB  conda-forge
+    rdkit-2026.03.1            |  py310hd71299c_0        19.1 MB  conda-forge
+    reportlab-4.4.10           |     pyhcf101f3_1         1.6 MB  conda-forge
+    rlpycairo-0.4.0            |     pyh6c17108_0          15 KB  conda-forge
+    sqlalchemy-2.0.49          |  py310h139afa4_0         2.9 MB  conda-forge
+    typing-extensions-4.15.0   |  py310h06a4308_0          11 KB
+    unicodedata2-17.0.1        |  py310h7c4b9e2_0         401 KB  conda-forge
+    zlib-1.3.2                 |       h25fd6f3_2          94 KB  conda-forge
+    zlib-ng-2.3.3              |       hceb46e0_1         120 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       105.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  brotli             conda-forge/linux-64::brotli-1.2.0-hed03a55_1 
+  brotli-bin         conda-forge/linux-64::brotli-bin-1.2.0-hb03c661_1 
+  cairo              conda-forge/linux-64::cairo-1.18.4-he90730b_1 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.7-pyhd8ed1ab_0 
+  contourpy          conda-forge/linux-64::contourpy-1.3.2-py310h3788b33_0 
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhcf101f3_2 
+  cyrus-sasl         conda-forge/linux-64::cyrus-sasl-2.1.28-hac629b4_1 
+  eigen-abi          conda-forge/linux-64::eigen-abi-3.4.0.100-h3bcb7cf_2 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3 
+  fontconfig         conda-forge/linux-64::fontconfig-2.17.1-h27c8c51_0 
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-hc364b38_1 
+  fonttools          conda-forge/linux-64::fonttools-4.62.0-py310h3406613_0 
+  freetype           conda-forge/linux-64::freetype-2.14.3-ha770c72_0 
+  freetype-py        conda-forge/noarch::freetype-py-2.3.0-pyhd8ed1ab_0 
+  greenlet           conda-forge/linux-64::greenlet-3.3.2-py310h25320af_0 
+  keyutils           conda-forge/linux-64::keyutils-1.6.3-hb9d3cd8_0 
+  kiwisolver         conda-forge/linux-64::kiwisolver-1.5.0-py310haaf941d_0 
+  krb5               conda-forge/linux-64::krb5-1.22.2-ha1258a1_0 
+  lcms2              conda-forge/linux-64::lcms2-2.18-h0c24ade_0 
+  lerc               conda-forge/linux-64::lerc-4.1.0-hdb68285_0 
+  libboost           conda-forge/linux-64::libboost-1.86.0-hd24cca6_5 
+  libboost-python    conda-forge/linux-64::libboost-python-1.86.0-py310hc563356_5 
+  libbrotlicommon    conda-forge/linux-64::libbrotlicommon-1.2.0-hb03c661_1 
+  libbrotlidec       conda-forge/linux-64::libbrotlidec-1.2.0-hb03c661_1 
+  libbrotlienc       conda-forge/linux-64::libbrotlienc-1.2.0-hb03c661_1 
+  libdeflate         conda-forge/linux-64::libdeflate-1.25-h17f619e_0 
+  libedit            conda-forge/linux-64::libedit-3.1.20250104-pl5321h7949ede_0 
+  libfreetype        conda-forge/linux-64::libfreetype-2.14.3-ha770c72_0 
+  libfreetype6       conda-forge/linux-64::libfreetype6-2.14.3-h73754d4_0 
+  libglib            pkgs/main/linux-64::libglib-2.86.3-h8b17d9a_0 
+  libiconv           conda-forge/linux-64::libiconv-1.18-h3b78370_2 
+  libjpeg-turbo      conda-forge/linux-64::libjpeg-turbo-3.1.2-hb03c661_0 
+  liblzma            conda-forge/linux-64::liblzma-5.8.2-hb03c661_0 
+  libntlm            conda-forge/linux-64::libntlm-1.8-hb9d3cd8_0 
+  libpng             conda-forge/linux-64::libpng-1.6.56-h421ea60_0 
+  libpq              conda-forge/linux-64::libpq-18.3-h9abb657_0 
+  librdkit           conda-forge/linux-64::librdkit-2026.03.1-h4dfd318_0 
+  libsqlite          conda-forge/linux-64::libsqlite-3.52.0-hf4e2dac_0 
+  libtiff            conda-forge/linux-64::libtiff-4.7.1-h9d88235_1 
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.6.0-hd42ef1d_0 
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.36-hd590300_1 
+  libxml2-16         conda-forge/linux-64::libxml2-16-2.15.2-hca6bf5a_0 
+  matplotlib-base    conda-forge/linux-64::matplotlib-base-3.10.8-py310hfde16b3_0 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.5.2-py310hacdc0fc_0 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-2.1.1-py310h8fe796d_0 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.3.0-py310h505adc9_0 
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1 
+  numpy              pkgs/main/linux-64::numpy-2.2.5-py310h64c44e4_2 
+  numpy-base         pkgs/main/linux-64::numpy-base-2.2.5-py310he1678cf_2 
+  openjpeg           conda-forge/linux-64::openjpeg-2.5.4-h55fea9a_0 
+  openldap           conda-forge/linux-64::openldap-2.6.10-hbde042b_1 
+  pandas             conda-forge/linux-64::pandas-2.3.3-py310h0158d43_2 
+  pcre2              conda-forge/linux-64::pcre2-10.46-h1321c63_0 
+  pillow             conda-forge/linux-64::pillow-12.2.0-py310h5a73078_0 
+  pixman             conda-forge/linux-64::pixman-0.46.4-h54a6638_1 
+  pycairo            conda-forge/linux-64::pycairo-1.29.0-py310h8c3e0f7_1 
+  pyparsing          conda-forge/noarch::pyparsing-3.3.2-pyhcf101f3_0 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2 
+  python-tzdata      conda-forge/noarch::python-tzdata-2026.1-pyhd8ed1ab_0 
+  python_abi         conda-forge/noarch::python_abi-3.10-8_cp310 
+  pytz               conda-forge/noarch::pytz-2026.1.post1-pyhcf101f3_0 
+  qhull              conda-forge/linux-64::qhull-2020.2-h434a139_5 
+  rdkit              conda-forge/linux-64::rdkit-2026.03.1-py310hd71299c_0 
+  reportlab          conda-forge/noarch::reportlab-4.4.10-pyhcf101f3_1 
+  rlpycairo          conda-forge/noarch::rlpycairo-0.4.0-pyh6c17108_0 
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1 
+  sqlalchemy         conda-forge/linux-64::sqlalchemy-2.0.49-py310h139afa4_0 
+  typing-extensions  pkgs/main/linux-64::typing-extensions-4.15.0-py310h06a4308_0 
+  unicodedata2       conda-forge/linux-64::unicodedata2-17.0.1-py310h7c4b9e2_0 
+  xorg-libice        conda-forge/linux-64::xorg-libice-1.1.2-hb9d3cd8_0 
+  xorg-libsm         conda-forge/linux-64::xorg-libsm-1.2.6-he73a12e_0 
+  xorg-libxext       conda-forge/linux-64::xorg-libxext-1.3.7-hb03c661_0 
+  xorg-libxrender    conda-forge/linux-64::xorg-libxrender-0.9.12-hb9d3cd8_0 
+  zlib-ng            conda-forge/linux-64::zlib-ng-2.3.3-hceb46e0_1 
+  zstd               conda-forge/linux-64::zstd-1.5.7-hb78ec9c_6 
+
+The following packages will be UPDATED:
+
+  icu                        pkgs/main::icu-73.1-h6a678d5_0 --> conda-forge::icu-78.3-h33c6efd_0 
+  libhwloc           pkgs/main::libhwloc-2.12.1-default_hf~ --> conda-forge::libhwloc-2.12.1-default_hafda6a7_1003 
+  libnsl                 pkgs/main::libnsl-2.0.0-h5eee18b_0 --> conda-forge::libnsl-2.0.1-hb9d3cd8_1 
+  libuuid              pkgs/main::libuuid-1.41.5-h5eee18b_0 --> conda-forge::libuuid-2.42-h5347b49_0 
+  libxml2              pkgs/main::libxml2-2.13.9-h2c43086_0 --> conda-forge::libxml2-2.15.2-he237659_0 
+  libzlib               pkgs/main::libzlib-1.3.1-hb25bd0a_0 --> conda-forge::libzlib-1.3.2-h25fd6f3_2 
+  openssl               pkgs/main::openssl-3.5.5-h1b28b03_0 --> conda-forge::openssl-3.6.1-h35e630c_1 
+  zlib                     pkgs/main::zlib-1.3.1-hb25bd0a_0 --> conda-forge::zlib-1.3.2-h25fd6f3_2 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  python               pkgs/main::python-3.10.20-h741d88c_0 --> conda-forge::python-3.10.20-h3c07f61_0_cpython 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Requirement already satisfied: pandas in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (2.3.3)
+Requirement already satisfied: matplotlib in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (3.10.8)
+Requirement already satisfied: numpy in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (2.2.5)
+Requirement already satisfied: python-dateutil>=2.8.2 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from pandas) (2026.1.post1)
+Requirement already satisfied: tzdata>=2022.7 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from pandas) (2026.1)
+Requirement already satisfied: contourpy>=1.0.1 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib) (1.3.2)
+Requirement already satisfied: cycler>=0.10 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib) (4.62.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib) (1.5.0)
+Requirement already satisfied: packaging>=20.0 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib) (26.0)
+Requirement already satisfied: pillow>=8 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib) (12.2.0)
+Requirement already satisfied: pyparsing>=3 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from matplotlib) (3.3.2)
+Requirement already satisfied: six>=1.5 in /weka/home/jmatthi2/deep_learning/env_schnet/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+============================================
+Environment created at: /home/jmatthi2/deep_learning/env_schnet
+============================================

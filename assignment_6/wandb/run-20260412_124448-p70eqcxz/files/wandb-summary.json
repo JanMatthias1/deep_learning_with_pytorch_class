@@ -1,0 +1,1 @@
+{"_timestamp":1.7760129418295329e+09,"_wandb":{"runtime":652},"best_eval_reward":500,"final_eval_reward":111.25,"_runtime":652,"buffer_size":50000,"episode":1000,"_step":1000,"episode_reward":24,"epsilon":0.01,"total_steps":207777,"eval_avg_reward":111.2,"avg_reward_100":170.37,"avg_loss":8.670348236337304}

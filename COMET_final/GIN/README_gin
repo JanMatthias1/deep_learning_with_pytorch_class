@@ -1,0 +1,45 @@
+# GIN Lipid Embeddings
+
+Pretrained GIN embeddings for all 14 lipids in the LANCE dataset.
+
+## Files
+- `gin_inference.py` — generates embeddings from SMILES
+- `model.py` — GIN architecture (adapted from snap-stanford/pretrain-gnns)
+- `supervised_contextpred.pth` — pretrained weights (chem, context prediction)
+- `lance_lipid_gin_embeddings.npy` — output embeddings
+- `sanity_check.py` — validates embeddings (shape, NaN, zeros)
+- `similarity_matrix.py` — pairwise cosine similarity matrix + plot
+
+## Embeddings Format
+Dictionary saved as .npy file. Keys are SMILES strings, values are 300-dim numpy arrays.
+
+To load:
+
+    embeddings = np.load('lance_lipid_gin_embeddings.npy', allow_pickle=True).item()
+    emb = embeddings["SMILES_STRING"]  # returns np.array of shape (300,)
+
+## Model Details
+- Architecture: GIN (Graph Isomorphism Network), 5 layers, emb_dim=300, JK=last
+- Pretraining: Supervised + context prediction on chemistry dataset (ZINC/ChEMBL)
+- Weights source: snap-stanford/pretrain-gnns (chem/model_gin/supervised_contextpred.pth)
+- Pooling: Global mean pooling over node representations
+
+## Key Finding
+Cholesterol and beta-sitosterol produce nearly identical embeddings (cosine sim=0.9946) despite having different efficacy profiles in the LANCE dataset. This motivates the use of richer 3D-aware encoders (SchNet, 3D Infomax) as explored in the broader project.
+
+## Dependencies
+- torch==1.13.1
+- torch-geometric
+- torch-scatter
+- torch-sparse
+- torch-cluster
+- torch-spline-conv
+- rdkit
+- numpy
+
+## Notes
+- model.py has been patched for compatibility with newer torch-geometric
+- aggr is now passed to super().__init__() instead of propagate()
+- add_self_loops() return value unpacked as tuple
+- edge_index.long() cast added before propagate()
+- If regenerating embeddings, ensure SMILES strings match exactly with LANCE dataset JSON

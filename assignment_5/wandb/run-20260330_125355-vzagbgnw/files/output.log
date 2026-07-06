@@ -1,0 +1,8 @@
+Epoch   1/50 | lr 2.00e-04 | train loss 4.3165 acc 0.0442 | val loss 3.9601 acc 0.0896 | 543.6s
+  -> New best val acc: 0.0896
+Epoch   2/50 | lr 3.00e-04 | train loss 4.0632 acc 0.0747 | val loss 3.7224 acc 0.1166 | 551.2s
+  -> New best val acc: 0.1166
+Epoch   3/50 | lr 4.00e-04 | train loss 3.9279 acc 0.0934 | val loss 3.5941 acc 0.1418 | 555.6s
+  -> New best val acc: 0.1418
+Epoch   4/50 | lr 5.00e-04 | train loss 4.0953 acc 0.0766 | val loss 4.5601 acc 0.0194 | 559.1s
+Epoch   5/50 | lr 5.00e-04 | train loss 4.5890 acc 0.0184 | val loss 4.3995 acc 0.0358 | 561.1s
